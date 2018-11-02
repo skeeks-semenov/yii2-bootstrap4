@@ -1,5 +1,5 @@
 {
-    "name": "yiisoft/yii2-bootstrap4",
+    "name": "skeeks/yii2-bootstrap4",
     "description": "The Twitter Bootstrap extension for the Yii framework",
     "keywords": ["yii2", "bootstrap", "bootstrap4"],
     "type": "yii2-extension",
@@ -33,11 +33,14 @@
         {
             "name": "Simon Karlen",
             "email": "simi.albi@gmail.com"
+        },
+        {
+            "name": "Semenov Alexander",
+            "email": "semenov@skeeks.com"
         }
     ],
     "require": {
-        "yiisoft/yii2": "~2.0",
-        "bower-asset/bootstrap": "^4.1.0"
+        "yiisoft/yii2": "~2.0"
     },
     "require-dev": {
         "yiisoft/yii2-coding-standards": "~2.0",

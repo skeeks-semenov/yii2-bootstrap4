@@ -6,17 +6,19 @@
     <br>
 </p>
 
-This is the Twitter Bootstrap extension for [Yii framework 2.0](http://www.yiiframework.com). It encapsulates [Bootstrap 4](http://getbootstrap.com/) components
-and plugins in terms of Yii widgets, and thus makes using Bootstrap components/plugins
-in Yii applications extremely easy.
+Removed dependency on "bower-asset/bootstrap": "^4.1.0" which conflicts with "bower-asset/bootstrap": "^3"
 
-For license information check the [LICENSE](LICENSE.md)-file.
+Temporary solution to the problem [https://github.com/yiisoft/yii2-bootstrap4/issues/50](https://github.com/yiisoft/yii2-bootstrap4/issues/50)
 
-Documentation is at [docs/guide/README.md](docs/guide/README.md).
+A temporary package that fully complies with [https://github.com/yiisoft/yii2-bootstrap4](https://github.com/yiisoft/yii2-bootstrap4). The only thing that does not conflict with the installation.
 
-[![Latest Stable Version](https://poser.pugx.org/yiisoft/yii2-bootstrap4/v/stable.png)](https://packagist.org/packages/yiisoft/yii2-bootstrap4)
-[![Total Downloads](https://poser.pugx.org/yiisoft/yii2-bootstrap4/downloads.png)](https://packagist.org/packages/yiisoft/yii2-bootstrap4)
-[![Build Status](https://travis-ci.org/yiisoft/yii2-bootstrap4.svg?branch=master)](https://travis-ci.org/yiisoft/yii2-bootstrap4)
+In the future, you just need to switch to [yiisoft/yii2-bootstrap4](https://github.com/yiisoft/yii2-bootstrap4)
+
+
+
+[![Latest Stable Version](https://poser.pugx.org/skeeks/yii2-bootstrap4/v/stable.png)](https://packagist.org/packages/skeeks/yii2-bootstrap4)
+[![Total Downloads](https://poser.pugx.org/skeeks/yii2-bootstrap4/downloads.png)](https://packagist.org/packages/skeeks/yii2-bootstrap4)
+[![Build Status](https://travis-ci.org/skeeks/yii2-bootstrap4.svg?branch=master)](https://travis-ci.org/skeeks/yii2-bootstrap4)
 
 
 Installation
@@ -36,14 +38,9 @@ or add
 "yiisoft/yii2-bootstrap4": "~1.0.0"
 ```
 
-to the require section of your `composer.json` file.
 
-Usage
-----
+___
 
-For example, the following
-single line of code in a view file would render a Bootstrap Progress plugin:
-
-```php
-<?= yii\bootstrap4\Progress::widget(['percent' => 60, 'label' => 'test']) ?>
-```
+> [![skeeks!](https://skeeks.com/img/logo/logo-no-title-80px.png)](https://skeeks.com)  
+<i>SkeekS CMS (Yii2) — quickly, easily and effectively!</i>  
+[skeeks.com](https://skeeks.com) | [cms.skeeks.com](https://cms.skeeks.com)
