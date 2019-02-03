@@ -101,6 +101,13 @@ class Modal extends Widget
      */
     public $toggleButton = false;
 
+    /**
+     * @param $header
+     */
+    public function setHeader($header)
+    {
+        $this->title = $header;
+    }
 
     /**
      * Initializes the widget.
