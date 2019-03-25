@@ -13,58 +13,16 @@
     },
     "authors": [
         {
-            "name": "Qiang Xue",
-            "email": "qiang.xue@gmail.com",
-            "homepage": "http://www.yiiframework.com/"
-        },
-        {
-            "name": "Alexander Makarov",
-            "email": "sam@rmcreative.ru",
-            "homepage": "http://rmcreative.ru/"
-        },
-        {
-            "name": "Antonio Ramirez",
-            "email": "amigo.cobos@gmail.com"
-        },
-        {
-            "name": "Paul Klimov",
-            "email": "klimov.paul@gmail.com"
-        },
-        {
-            "name": "Simon Karlen",
-            "email": "simi.albi@gmail.com"
-        },
-        {
             "name": "Semenov Alexander",
             "email": "semenov@skeeks.com"
         }
     ],
     "require": {
-        "yiisoft/yii2": "~2.0"
+        "yiisoft/yii2-bootstrap4": "^2.0.1"
     },
-    "require-dev": {
-        "yiisoft/yii2-coding-standards": "~2.0",
-        "phpunit/phpunit": "*"
-    },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://asset-packagist.org"
-        }
-    ],
     "autoload": {
         "psr-4": {
-            "yii\\bootstrap4\\": "src"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "yiiunit\\extensions\\bootstrap4\\": "tests"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
+            "skeeks\\bootstrap4\\": "src"
         }
     }
 }
